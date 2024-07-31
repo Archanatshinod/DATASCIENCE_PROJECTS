@@ -1,0 +1,148 @@
+{
+  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.55\",\"type\":2},\"customTheme\":{\"name\":\"AccessibleTidal\",\"version\":\"5.55\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "AccessibleTidal",
+            "path": "BuiltInThemes/AccessibleTidal.json",
+            "type": 201
+          },
+          {
+            "name": "CY24SU06",
+            "path": "BaseThemes/CY24SU06.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Screenshot_2024-07-31_1447242964967462288777.png",
+            "path": "Screenshot_2024-07-31_1447242964967462288777.png",
+            "type": 100
+          },
+          {
+            "name": "data5254725103085214.jpeg",
+            "path": "data5254725103085214.jpeg",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"196L\"}}}}}],\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'data.jpeg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"data5254725103085214.jpeg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "5c04b0884bc5e1c86ab8",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"23c9cfa414754a7693c0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1280.278731637046,\"height\":61.749778053233726,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"DATA PROFESSIONAL SURVEY BREAKDOWN\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Lucida Sans Unicode\",\"fontSize\":\"20pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.6}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"38D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 61.75,
+          "width": 1280.28,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"5cd2fecd369738e0af39\",\"layouts\":[{\"id\":0,\"position\":{\"x\":290,\"y\":0,\"z\":9000,\"width\":60,\"height\":61.66666666666667,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Screenshot_2024-07-31_1447242964967462288777.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 61.67,
+          "width": 60.00,
+          "x": 290.00,
+          "y": 0.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"79986799d89d601c5435\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1090,\"y\":61.66666666666667,\"z\":1000,\"width\":190,\"height\":110,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(Data Professional Survey.Unique ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data Professional Survey\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Unique ID\"}},\"Function\":5},\"Name\":\"Min(Data Professional Survey.Unique ID)\",\"NativeReferenceName\":\"Count of Survey Takers\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Unique ID\"}},\"Function\":5}}}]},\"columnProperties\":{\"Min(Data Professional Survey.Unique ID)\":{\"displayName\":\"Count of Survey Takers\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 110.00,
+          "width": 190.00,
+          "x": 1090.00,
+          "y": 61.67,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"b5ab17fec41ec6548182\",\"layouts\":[{\"id\":0,\"position\":{\"x\":488.33333333333337,\"y\":61.66666666666667,\"z\":7000,\"width\":215,\"height\":110,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"gauge\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Data Professional Survey.Q6 - How Happy are you in your Current Position with the following? (Salary))\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data Professional Survey\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q6 - How Happy are you in your Current Position with the following? (Salary)\"}},\"Function\":1},\"Name\":\"Sum(Data Professional Survey.Q6 - How Happy are you in your Current Position with the following? (Salary))\",\"NativeReferenceName\":\"Average of Q6 - How Happy are you in your Current Position with the following? (Salary)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q6 - How Happy are you in your Current Position with the following? (Salary)\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Happiness with Salary'\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 110.00,
+          "width": 215.00,
+          "x": 488.33,
+          "y": 61.67,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"b918516031512e930d49\",\"layouts\":[{\"id\":0,\"position\":{\"x\":883.3333333333334,\"y\":61.66666666666667,\"z\":2000,\"width\":206.66666666666669,\"height\":110,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Data Professional Survey.Q10 - Current Age)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data Professional Survey\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q10 - Current Age\"}},\"Function\":1},\"Name\":\"Sum(Data Professional Survey.Q10 - Current Age)\",\"NativeReferenceName\":\"Avg Age of Survey Takers\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q10 - Current Age\"}},\"Function\":1}}}]},\"columnProperties\":{\"Sum(Data Professional Survey.Q10 - Current Age)\":{\"displayName\":\"Avg Age of Survey Takers\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 110.00,
+          "width": 206.67,
+          "x": 883.33,
+          "y": 61.67,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"beae721d3ca46babb2ad\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":421.6666666666667,\"z\":8000,\"width\":488.33333333333337,\"height\":298.33333333333337,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CountNonNull(Data Professional Survey.Q7 - How difficult was it for you to break into Data?)\"}],\"Category\":[{\"queryRef\":\"Data Professional Survey.Q7 - How difficult was it for you to break into Data?\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data Professional Survey\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q7 - How difficult was it for you to break into Data?\"}},\"Function\":5},\"Name\":\"CountNonNull(Data Professional Survey.Q7 - How difficult was it for you to break into Data?)\",\"NativeReferenceName\":\"Count of Q7 - How difficult was it for you to break into Data?\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q7 - How difficult was it for you to break into Data?\"},\"Name\":\"Data Professional Survey.Q7 - How difficult was it for you to break into Data?\",\"NativeReferenceName\":\"Breaking into Data\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q7 - How difficult was it for you to break into Data?\"}},\"Function\":5}}}]},\"columnProperties\":{\"Data Professional Survey.Q7 - How difficult was it for you to break into Data?\":{\"displayName\":\"Breaking into Data\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data Professional Survey\"}},\"Property\":\"Q7 - How difficult was it for you to break into Data?\"}},\"Right\":{\"Literal\":{\"Value\":\"'Very Difficult'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.6}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data Professional Survey\"}},\"Property\":\"Q7 - How difficult was it for you to break into Data?\"}},\"Right\":{\"Literal\":{\"Value\":\"'Very Easy'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.6}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data Professional Survey\"}},\"Property\":\"Q7 - How difficult was it for you to break into Data?\"}},\"Right\":{\"Literal\":{\"Value\":\"'Neither easy nor difficult'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data Professional Survey\"}},\"Property\":\"Q7 - How difficult was it for you to break into Data?\"}},\"Right\":{\"Literal\":{\"Value\":\"'Difficult'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data Professional Survey\"}},\"Property\":\"Q7 - How difficult was it for you to break into Data?\"}},\"Right\":{\"Literal\":{\"Value\":\"'Easy'\"}}}}}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Difficulty Break into data'\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter7dc6aada819fef75227e\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data Professional Survey\"}},\"Property\":\"Q7 - How difficult was it for you to break into Data?\"}},\"type\":\"Categorical\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"displayName\":\"Difficulty to break into data\"}]",
+          "height": 298.33,
+          "width": 488.33,
+          "x": 0.00,
+          "y": 421.67,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"cce9cab1d76bcca85c04\",\"layouts\":[{\"id\":0,\"position\":{\"x\":487.5916671345949,\"y\":171.73039848765606,\"z\":4000,\"width\":792.7197858760552,\"height\":236.12929792052708,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Data Professional Survey.Q5 - Favorite Programming Language.1\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(Data Professional Survey.Unique ID)\"}],\"Series\":[{\"queryRef\":\"Data Professional Survey.Q1 - Which Title Best Fits your Current Role?.1\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data Professional Survey\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q5 - Favorite Programming Language.1\"},\"Name\":\"Data Professional Survey.Q5 - Favorite Programming Language.1\",\"NativeReferenceName\":\"Favorite Programming Language\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Unique ID\"}},\"Function\":5},\"Name\":\"CountNonNull(Data Professional Survey.Unique ID)\",\"NativeReferenceName\":\"Count of Voters\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q1 - Which Title Best Fits your Current Role?.1\"},\"Name\":\"Data Professional Survey.Q1 - Which Title Best Fits your Current Role?.1\",\"NativeReferenceName\":\"Job Role\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Unique ID\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(Data Professional Survey.Unique ID)\":{\"displayName\":\"Count of Voters\"},\"Data Professional Survey.Q5 - Favorite Programming Language.1\":{\"displayName\":\"Favorite Programming Language\"},\"Data Professional Survey.Q1 - Which Title Best Fits your Current Role?.1\":{\"displayName\":\"Job Role\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.4}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data Professional Survey\"}},\"Property\":\"Q1 - Which Title Best Fits your Current Role?.1\"}},\"Right\":{\"Literal\":{\"Value\":\"'Database Developer'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data Professional Survey\"}},\"Property\":\"Q1 - Which Title Best Fits your Current Role?.1\"}},\"Right\":{\"Literal\":{\"Value\":\"'Other'\"}}}}}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Favorite Programming Language'\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 236.13,
+          "width": 792.72,
+          "x": 487.59,
+          "y": 171.73,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"cf9435255437c92bc983\",\"layouts\":[{\"id\":0,\"position\":{\"x\":488.33333333333337,\"y\":408.33333333333337,\"z\":3000,\"width\":791.6666666666667,\"height\":311.6666666666667,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Data Professional Survey.Q1 - Which Title Best Fits your Current Role?.1\",\"active\":true}],\"Y\":[{\"queryRef\":\"Avg(Data Professional Survey.Average Salary)\"}],\"Series\":[{\"queryRef\":\"Data Professional Survey.Q1 - Which Title Best Fits your Current Role?.1\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data Professional Survey\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q1 - Which Title Best Fits your Current Role?.1\"},\"Name\":\"Data Professional Survey.Q1 - Which Title Best Fits your Current Role?.1\",\"NativeReferenceName\":\"Job Title\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Average Salary\"}},\"Function\":1},\"Name\":\"Avg(Data Professional Survey.Average Salary)\",\"NativeReferenceName\":\"Average Salary\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Average Salary\"}},\"Function\":1}}}]},\"columnProperties\":{\"Data Professional Survey.Q1 - Which Title Best Fits your Current Role?.1\":{\"displayName\":\"Job Title\"},\"Avg(Data Professional Survey.Average Salary)\":{\"displayName\":\"Average Salary\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.4}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data Professional Survey\"}},\"Property\":\"Q1 - Which Title Best Fits your Current Role?.1\"}},\"Right\":{\"Literal\":{\"Value\":\"'Data Analyst'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.6}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data Professional Survey\"}},\"Property\":\"Q1 - Which Title Best Fits your Current Role?.1\"}},\"Right\":{\"Literal\":{\"Value\":\"'Other'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0.6}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data Professional Survey\"}},\"Property\":\"Q1 - Which Title Best Fits your Current Role?.1\"}},\"Right\":{\"Literal\":{\"Value\":\"'Student/Looking/None'\"}}}}}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Average Salary by Job Title'\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"19D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 311.67,
+          "width": 791.67,
+          "x": 488.33,
+          "y": 408.33,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"ddbaba5a14878ca51051\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":61.33228517416288,\"z\":5000,\"width\":487.5916671345949,\"height\":360.3271753982069,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Group\":[{\"queryRef\":\"Data Professional Survey.Q11 - Which Country do you live in?.1.1\",\"active\":true}],\"Values\":[{\"queryRef\":\"CountNonNull(Data Professional Survey.Q11 - Which Country do you live in?.1.1)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data Professional Survey\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q11 - Which Country do you live in?.1.1\"},\"Name\":\"Data Professional Survey.Q11 - Which Country do you live in?.1.1\",\"NativeReferenceName\":\"Q11 - Which Country do you live in?.1.1\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q11 - Which Country do you live in?.1.1\"}},\"Function\":5},\"Name\":\"CountNonNull(Data Professional Survey.Q11 - Which Country do you live in?.1.1)\",\"NativeReferenceName\":\"Count of Q11 - Which Country do you live in?.1.1\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.4}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data Professional Survey\"}},\"Property\":\"Q11 - Which Country do you live in?.1.1\"}},\"Right\":{\"Literal\":{\"Value\":\"'Canada'\"}}}}}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Country of Survey takers'\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 360.33,
+          "width": 487.59,
+          "x": 0.00,
+          "y": 61.33,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"f4f8ba7a8c0dc70ddd87\",\"layouts\":[{\"id\":0,\"position\":{\"x\":703.3333333333334,\"y\":61.66666666666667,\"z\":6000,\"width\":198.33333333333334,\"height\":110,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"gauge\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Data Professional Survey.Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance))\"}],\"MinValue\":[{\"queryRef\":\"Sum(Data Professional Survey.Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance))1\"}],\"MaxValue\":[{\"queryRef\":\"Sum(Data Professional Survey.Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance))2\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data Professional Survey\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)\"}},\"Function\":1},\"Name\":\"Sum(Data Professional Survey.Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance))\",\"NativeReferenceName\":\"Average of Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)\"}},\"Function\":3},\"Name\":\"Sum(Data Professional Survey.Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance))1\",\"NativeReferenceName\":\"Min of Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)\"}},\"Function\":4},\"Name\":\"Sum(Data Professional Survey.Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance))2\",\"NativeReferenceName\":\"Max of Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Happiness with Work/Life Balance'\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 110.00,
+          "width": 198.33,
+          "x": 703.33,
+          "y": 61.67,
+          "z": 6000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "AccessibleTidal"
+}
